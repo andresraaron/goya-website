@@ -1,0 +1,301 @@
+/******* BASE STYLES ********/
+#about, #portfolio, #connect {
+	height: 750px;
+}
+
+@font-face {
+font-family: 'Mistral';
+font-style: normal;
+font-weight: normal;
+src: local('Mistral'), url('MISTRAL.woff') format('woff');
+}
+
+/******* GRID ********/
+
+.full-width {
+	margin: 0px auto;
+	width: 1366px;
+}
+
+.half-width {
+	float: left;
+	width: 683px;
+
+}
+
+.third-width {
+	float: left;
+	width: 455px;
+	}
+
+/******* HEADER ********/
+header {
+	background-color: #31556a;
+	background-size: cover;
+	height: 750px;
+}
+
+header h1 {
+	clear: both;
+	color: #ffffff;
+	font-family: 'Franklin Gothic Demi Cond', arial;
+	font-size: 60px;
+	text-transform: capitalize;
+	font-variant: small-caps;
+	letter-spacing: -2px; 
+	margin: 0 0 0 0;
+	padding: 15px 0 0 0;
+}
+
+nav {
+	float: right;
+	padding: 24px 0px;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	color: #ffffff;
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	padding-left: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.container {
+	color: #ffffff;
+    font-family: 'Mistral', 'Dancing Script', cursive;
+    font-size: 90px;
+    letter-spacing: 10px; 
+    position: relative;
+    text-align: center;
+}
+
+.top-right {
+    position: absolute;
+    top: 115px;
+    right: 320px;
+}
+
+.center {
+    position: absolute;
+    top: 390px;
+    right: 470px;
+}
+
+.bottom-right {
+    position: absolute;
+    top: 620px;
+    right: 155px;
+}
+
+/******* ABOUT ********/
+
+#about {
+	background-color: #192c37;
+	background-size: cover;
+}
+
+#about .full-width {
+	padding: 25px 0;
+}
+
+#about h3 {
+	color: #ffffff;
+	font-family: 'Oswald', sans-serif; 
+	font-size: 36px;
+	text-transform: uppercase;
+	padding-bottom: 30px;
+
+}
+
+#about h4 {
+	color: #ffffff;
+	font-family: 'Oswald', sans-serif; 
+	font-size: 36px;
+	margin: 0;
+}
+
+#about h4 span {
+	color: #5492b6;
+}
+
+#about p {
+	color: #ffffff;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 22px;
+	line-height: 34px;
+	padding-right: 0px;
+	padding-top: 10px;
+}
+
+#about img {
+	display: block;
+   	margin-left: 0;
+   	margin-right: auto;
+}
+
+/*******PORTFOLIO*******/
+
+#portfolio {
+	background-color: #31556a;
+	background-size: cover;
+}
+
+#portfolio .full-width {
+	padding: 25px 0px;
+}
+
+#portfolio h3 {
+	color: #ffffff;
+	font-family: 'Oswald', sans-serif; 
+	font-size: 36px;
+	text-transform: uppercase;
+	padding-bottom: 30px;
+}
+
+#portfolio .left-square {
+	height: 389px;
+  	width: 420px;
+  	background-color: #192c37;
+  	border-radius: 40px;
+  	display: block;
+  	margin-left: 0;
+}
+
+#portfolio .center-square {
+	height: 389px;
+  	width: 420px;
+  	background-color: #192c37;
+  	border-radius: 40px;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+#portfolio .right-square {
+	height: 389px;
+  	width: 420px;
+  	background-color: #192c37;
+  	border-radius: 40px;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: 0;
+}
+
+#portfolio img {
+  	display: block;
+   	margin-left: auto;
+   	margin-right: auto;
+}
+
+.left-square img {
+	padding-top: 100px;
+}
+
+.center-square img {
+	padding-top: 35px;
+}
+
+.right-square img {
+	padding-top: 95px;
+}
+/******* CONNECT ********/
+
+#connect {
+	background-color: #192c37;
+	background-size: cover;
+}
+
+#connect .full-width {
+	padding: 25px 0;
+}
+
+#connect h3 {
+	color: #ffffff;
+	font-family: 'Oswald', sans-serif; 
+	font-size: 36px;
+	text-transform: uppercase;
+	padding-bottom: 30px;
+
+}
+
+#connect img {
+	display: block;
+   	margin-left: 0;
+   	margin-right: auto;
+}
+
+input {
+	width: 100%;
+}
+
+input[name=name], input[name=email] {
+    background-color: #ffffff;
+    border: none;
+    color: #000000;
+	font-family: 'Oswald', sans-serif; 
+	font-size: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-indent: 20px;
+	margin-bottom: 18px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+input[name=message] {
+    color: #000000;
+	font-family: 'Oswald', sans-serif; 
+	font-size: 20px;
+	text-transform: uppercase;
+	border: none;
+    text-decoration: none;
+    text-indent: 20px;
+    margin-bottom: 18px;
+	padding-top: 10px;
+	padding-bottom: 136px;
+}
+
+input[type=submit] {
+    color: #ffffff;
+	font-family: 'Oswald', sans-serif; 
+	font-size: 20px;
+	text-transform: uppercase;
+    background-color: #31556a;
+    border: none;
+    border-radius: 10px;
+    padding: 14px 32px;
+    text-decoration: none;
+    margin: 0px 0px;
+    cursor: pointer;
+}
+
+/******* FOOTER ********/
+
+#footer {
+	background-color: #31556a;
+	background-size: cover;
+}
+
+#footer .full-width {
+	padding: 20px 0;
+}
+
+#footer h2 {
+	color: #ffffff;
+	font-family: 'Oswald', sans-serif; 
+	font-size: 14px;
+	text-align: left;
+}
+
+#footer img {
+	float: left;
+	margin-left: 522px;
+	padding-right: 15px;
+	padding-top: 5px;
+}
