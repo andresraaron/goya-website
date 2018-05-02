@@ -29,10 +29,13 @@ src: local('Mistral'), url('MISTRAL.woff') format('woff');
 	}
 
 /******* HEADER ********/
+
 header {
 	background-color: #31556a;
 	background-size: cover;
+	background-repeat: no-repeat;
 	height: 750px;
+	background-image: url("../img/city-panorama.png");
 }
 
 header h1 {
@@ -71,25 +74,25 @@ nav ul li a {
     font-size: 90px;
     letter-spacing: 10px; 
     position: relative;
-    text-align: center;
+    text-align: center;    
 }
 
 .top-right {
     position: absolute;
-    top: 115px;
-    right: 320px;
+    top: 170px;
+    right: 430px;
 }
 
 .center {
     position: absolute;
-    top: 390px;
-    right: 470px;
+    top: 370px;
+    right: 650px;
 }
 
 .bottom-right {
     position: absolute;
-    top: 620px;
-    right: 155px;
+    top: 520px;
+    right: 250px;
 }
 
 /******* ABOUT ********/
@@ -161,7 +164,6 @@ nav ul li a {
 	height: 389px;
   	width: 420px;
   	background-color: #192c37;
-  	border-radius: 40px;
   	display: block;
   	margin-left: 0;
 }
@@ -170,7 +172,6 @@ nav ul li a {
 	height: 389px;
   	width: 420px;
   	background-color: #192c37;
-  	border-radius: 40px;
   	display: block;
   	margin-left: auto;
   	margin-right: auto;
@@ -180,7 +181,6 @@ nav ul li a {
 	height: 389px;
   	width: 420px;
   	background-color: #192c37;
-  	border-radius: 40px;
   	display: block;
   	margin-left: auto;
   	margin-right: 0;
